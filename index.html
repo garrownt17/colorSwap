@@ -1,0 +1,42 @@
+<!--
+Project Name: Color Swap
+Developer: Nathan Garrow
+Goal: create array of cells in table and change the color randomly on button push.
+-->
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <script src="./js/color.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Color Swap</h1>
+      <p>Click the button below to change the location of the blue square!</p>
+    </header>
+    <main>
+      <table>
+        <tbody>
+          <tr>
+            <td class="color-box" style="background-color:blue;"></td>
+            <td class="color-box" style="background-color:red;"></td>
+            <td class="color-box" style="background-color:red;">></td>
+          </tr>
+          <tr>
+            <td class="color-box" style="background-color:red;"></td>
+            <td class="color-box" style="background-color:red;"></td>
+            <td class="color-box" style="background-color:red;">></td>
+          </tr>
+          <tr>
+            <td class="color-box" style="background-color:red;"></td>
+            <td class="color-box" style="background-color:red;"></td>
+            <td class="color-box" style="background-color:red;">></td>
+          </tr>
+        </tbody>
+      </table>
+      <button onclick="swapColor()">Swap Colors!</button>
+    </main>
+  </body>
+</html>
